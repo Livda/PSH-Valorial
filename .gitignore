@@ -1,0 +1,13 @@
+# Don't commit LaTeXila files
+*~
+*.toc
+*.log
+*.pdf
+*.aux
+*.fls
+*.nav
+*.snm
+*.out
+*.db
+*.fdb_latexmk
+*.synctex.gz
