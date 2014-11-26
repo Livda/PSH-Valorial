@@ -2,6 +2,17 @@
 \usepackage[utf8x]{inputenc}
 \usepackage[T1]{fontenc}
 \usepackage[french]{babel}
+\usepackage{graphicx}
+\usepackage{eso-pic}
+\newcommand\BackgroundPic{%
+	\put(0,250){%
+		\parbox[b][\paperheight]{\paperwidth}{%
+			\vfill
+			\centering
+			\includegraphics[width=\paperwidth,height=\paperheight,keepaspectratio]{logoINSA.jpg}
+			\vfill
+}}}
+
 
 \title{La place de Valorial dans l'économie bretonne}
 \author{ \bsc{Aurélien Fontaine}
@@ -10,8 +21,13 @@
 	\and \bsc{Maxime Cadoret}
 	\and \bsc{Flavien Lecuyer}
 }
+%\institute[INSA de Rennes]{Institut National des Sciences Appliquées de Rennes}
+\date{\today}
+
+
 
 \begin{document}
+	\AddToShipoutPicture*{\BackgroundPic}
 	\maketitle
 	\setcounter{tocdepth}{2}
 	\tableofcontents
