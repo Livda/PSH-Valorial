@@ -10,3 +10,6 @@
 *.db
 *.fdb_latexmk
 *.synctex.gz
+*.bbl
+*.blg
+*.dvi
