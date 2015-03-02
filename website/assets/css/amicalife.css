@@ -1,0 +1,567 @@
+@font-face {
+	font-family: 'ReturnToSender';
+	src: url('../fonts/Return_To_Sender.ttf');
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	outline: 0;
+	color: inherit;
+	text-decoration: none;
+	font-style: normal;
+	font-weight: normal;
+}
+
+body {
+	font-family: Georgia, "DejaVu Serif", Norasi, serif;
+	font-size: 18px;
+}
+
+header {
+	position: fixed;
+	top: 50px;
+	width: 100%;
+	text-align: center;
+}
+
+header #amicalife {
+	display: inline-block;
+	padding: 0;
+	width: 212px;
+	height: 201px;
+	/*margin-right: 100px;*/
+
+	background-color: transparent;
+	background-image: url(../images/amicalife.png);
+	background-repeat: no-repeat;
+	background-position: right;
+}
+
+#nav {
+	display: block;
+	position: fixed;
+
+	top: 40%;
+	left: -37px;
+
+	opacity: 0;
+	z-index: 1000;
+}
+
+#nav a {
+	display: block;
+	height: 40px;
+	width: 220px;
+	background-image: url(../images/menu.png);
+
+	color: #e189b7;
+	text-align: center;
+	line-height: 40px;
+	font-weight: bold;
+
+	-webkit-transition: margin-left 0.3s, color 0.3s;
+	-moz-transition: margin-left 0.3s, color 0.3s;
+	-o-transition: margin-left 0.3s, color 0.3s;
+	-ms-transition: margin-left 0.3s, color 0.3s;
+	transition: margin-left 0.3s, color 0.3s;
+}
+
+#nav a:hover {
+	margin-left: 40px;
+	color: #5d57a6;
+}
+
+#gradient {
+	z-index: 16;
+	display: block;
+	height: 324px;
+	background-image: url(../images/gradient.jpg);
+	background-repeat: repeat-x;
+}
+
+#main {
+	position: relative;
+	width: 100%;
+	padding-bottom: 50px;
+	z-index: 15;
+	
+	background-color: #e189b7;
+	background-image: url(../images/motif_bg.jpg);
+	background-repeat: repeat-x repeat-y;
+
+	-webkit-transform: translate3d(0px, 0px, 0px);
+	-moz-transform: translate3d(0px, 0px, 0px);
+	-ms-transform: translate3d(0px, 0px, 0px);
+	-o-transform: translate3d(0px, 0px, 0px);
+	transform: translate3d(0px, 0px, 0px);
+
+	color: #7351a1;
+}
+
+#content {
+	width: 1080px;
+	margin: auto;
+}
+
+.story {
+	position: relative;
+	padding: 30px 0px;
+
+	text-shadow: -1px 1px 2px #bb6bbc;
+}
+
+.story p {
+	text-align: center;
+	margin: 15px;
+}
+
+.story nav {
+	position: absolute;
+	width: 50px;
+	height: 80%;
+	min-height: 500px;
+	right: -100px;
+	top: 10%;
+}
+
+.story nav .previous {
+	display: block;
+	position: absolute;
+	width: 50px;
+	height: 70px;
+	top: 0;
+
+	background-image: url(../images/arrow.png);
+	background-position: top left;
+	opacity: 0.5;
+}
+
+.story nav .next {
+	display: block;
+	position: absolute;
+	width: 50px;
+	height: 70px;
+	bottom: 0;
+
+	background-image: url(../images/arrow.png);
+	background-position: bottom left;
+	opacity: 0.5;
+}
+
+.story nav .previous:hover {
+	/*background-position: top right;*/
+	opacity: 1;
+}
+
+.story nav .next:hover {
+	/*background-position: bottom right;*/
+	opacity: 1;
+}
+
+.void-small {
+	height: 200px;
+}
+
+.void-medium {
+	height: 500px;
+}
+
+.void {
+	height: 400px;
+}
+
+h4, h5 {
+	text-align: center;
+	font-weight: normal;
+}
+
+h4
+{
+	margin-top: 40px;
+	margin-bottom: 40px;
+	font-size: 52px;
+	line-height: 52px;
+	color: #2d3d7f;
+
+	font-family: ReturnToSender, Impact, Charcoal, sans-serif;
+}
+
+h5 {
+	margin-top: 70px;
+	margin-bottom: 20px;
+	font-size: 26px;
+	line-height: 26px;
+	color: #4b71c6;
+}
+
+p {
+	margin-bottom: 30px;
+}
+
+strong {
+	font-weight: bold;
+}
+
+a {
+	border: none;
+}
+
+em {
+	font-style: italic;
+}
+
+.round_button {
+	cursor: pointer;
+	width:200px;
+	height:200px;
+	background:#7351a1;
+	box-shadow:0px 0px 8px #7351a1;
+	font-weight:bold;
+	font-size: 28px;
+	border-radius:50%;
+	color:#e189b7;
+	border:none;
+
+	-webkit-transition: box-shadow 0.3s, color 0.3s;
+	-moz-transition: box-shadow 0.3s, color 0.3s;
+	-o-transition: box-shadow 0.3s, color 0.3s;
+	-ms-transition: box-shadow 0.3s, color 0.3s;
+	transition: box-shadow 0.3s, color 0.3s;
+}
+
+.round_button:hover {
+	box-shadow:0px 0px 16px #ffd1a5;
+	color:#ffd1a5;
+}
+
+#team-border {
+	border: solid #7d0032 1px;
+	background: rgba(0,0,0,0.2);
+	box-shadow:0px 0px 4px #000;
+
+	width: 940px;
+	height: 570px;
+	margin: auto;
+	margin-top: 20px;
+}
+
+/* Team Amicalife */
+#team {
+	display: block;
+	margin: 10px auto;
+	width: 920px;
+	height: 550px;
+	position: relative;
+
+	border: solid #7d0032 1px;
+	background-image: url(../images/team_bg.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+#team #team-infos {
+	position: absolute;
+	top: 20px;
+	left: 0;
+	width: 100%;
+	text-align: center;
+}
+
+#team #team-infos h1, h2 {
+	color: #fdb14f;
+	font-weight: bold;
+	text-shadow: none;
+	font-family: Gabriola, Georgia, "DejaVu Serif", Norasi, serif;
+	line-height: 40px;
+}
+
+#team div {
+	background-position: left;
+	pointer-events: none;
+}
+
+#team div:hover {
+	background-position: right;
+}
+
+#team div .head {
+	position: absolute;
+	display: block;
+	pointer-events: all;
+
+	width: 80px;
+	height: 80px;
+
+	cursor: pointer;
+}
+
+#alix {
+	background-image: url(../images/team/alix.png);
+	width: 223px;
+	height: 541px;
+
+	position: absolute;
+	bottom: 0;
+	left: 11px;
+
+	z-index: 10;
+}
+
+#alix .head {
+	left: 60px;
+	bottom: 65px;
+}
+
+#lucas {
+	background-image: url(../images/team/lucas.png);
+	width: 308px;
+	height: 316px;
+
+	position: absolute;
+	bottom: 0;
+	left: 123px;
+
+	z-index: 9;
+}
+
+#lucas .head {
+	left: 110px;
+	top: 10px;
+}
+
+#nico {
+	background-image: url(../images/team/nico.png);
+	width: 271px;
+	height: 294px;
+
+	position: absolute;
+	bottom: 0;
+	left: 349px;
+
+	z-index: 8;
+}
+
+#nico .head {
+	left: 30px;
+	top: 5px;
+}
+
+#alexis {
+	background-image: url(../images/team/alexis.png);
+	width: 311px;
+	height: 279px;
+
+	position: absolute;
+	bottom: 162px;
+	left: 335px;
+
+	z-index: 5;
+}
+
+#alexis .head {
+	left: 100px;
+	top: 0;
+}
+
+#rachel {
+	background-image: url(../images/team/rachel.png);
+	width: 139px;
+	height: 279px;
+
+	position: absolute;
+	bottom: 65px;
+	left: 487px;
+
+	z-index: 7;
+}
+
+#rachel .head {
+	left: 5px;
+	top: 50px;
+}
+
+#eugenie {
+	background-image: url(../images/team/eugenie.png);
+	width: 272px;
+	height: 319px;
+
+	position: absolute;
+	bottom: 0;
+	left: 545px;
+
+	z-index: 9;
+}
+
+#eugenie .head {
+	left: 65px;
+	top: 20px;
+}
+
+#jordy {
+	background-image: url(../images/team/jordy.png);
+	width: 134px;
+	height: 200px;
+
+	position: absolute;
+	bottom: 229px;
+	left: 573px;
+
+	z-index: 5;
+}
+
+#jordy .head {
+	left: 40px;
+	top: 0;
+}
+
+#mymy {
+	background-image: url(../images/team/mymy.png);
+	width: 139px;
+	height: 256px;
+
+	position: absolute;
+	bottom: 143px;
+	left: 242px;
+
+	z-index: 7;
+}
+
+#mymy .head {
+	left: 35px;
+	top: 0;
+}
+
+#olivier {
+	background-image: url(../images/team/olivier.png);
+	width: 223px;
+	height: 369px;
+
+	position: absolute;
+	bottom: 0;
+	left: 697px;
+
+	z-index: 10;
+}
+
+#olivier .head {
+	left: 95px;
+	top: 75px;
+}
+
+#josso {
+	background-image: url(../images/team/josso.png);
+	width: 159px;
+	height: 308px;
+
+	position: absolute;
+	bottom: 61px;
+	left: 672px;
+
+	z-index: 7;
+}
+
+#josso .head {
+	left: 70px;
+	top: 10px;
+}
+
+/* Galleries */
+
+.gallery a {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.gallery {
+	text-align: center;
+}
+
+.gallery img {
+	vertical-align: middle;
+	box-shadow: 0 0 9px #6c246d;
+	margin: 10px;
+	opacity: 0.7;
+
+	-webkit-transition: opacity 0.3s;
+	-moz-transition: opacity 0.3s;
+	-o-transition: opacity 0.3s;
+	-ms-transition: opacity 0.3s;
+	transition: opacity 0.3s;
+}
+
+.gallery img:hover {
+	opacity: 1;
+}
+
+/* Partenaires */
+
+#partners .img-list {
+	margin-bottom: 80px;
+}
+
+.img-link {
+	vertical-align: middle;
+
+	opacity: 0.5;
+	-webkit-transition: opacity 0.3s;
+	-moz-transition: opacity 0.3s;
+	-o-transition: opacity 0.3s;
+	-ms-transition: opacity 0.3s;
+	transition: opacity 0.3s;
+	margin-top:2px;
+	max-height:150px;
+	margin: 10px;
+}
+
+.img-link:hover {
+	opacity: 1;
+}
+
+/* Projets */
+#projects h4 {
+	margin-bottom: 70px;
+}
+
+#projects hr {
+	width: 35%;
+	margin: 40px auto;
+}
+
+/* Evenements */
+#events .big {
+	font-size: 75px;
+}
+
+.download a {
+	color: #4b71c6;
+}
+
+.download a:hover {
+	text-shadow: 0px 0px 8px #bb6bbc;
+}
+
+/* VOUS */
+#you h4 {
+	font-size: 250px;
+	line-height: 250px;
+}
+
+.end {
+	position: relative;
+
+	margin-bottom: 70px;
+}
+
+.arabesque {
+	position: absolute;
+	display: inline-block;
+	height: 185px;
+	width: 250px;
+
+	top: -45px;
+	right: 245px;
+
+	background-image: url(../images/end.png);
+	background-repeat: no-repeat;
+}

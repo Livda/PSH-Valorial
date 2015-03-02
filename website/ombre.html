@@ -1,0 +1,107 @@
+<!DOCTYPE HTML>
+<html lang="fr">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="description" content="">
+		<meta name="author" content="">
+		<link rel="favicon icon" href="assets/images/favicon.png">
+		<link rel="icon" type="image/x-icon" href="assets/images/favicon.ico" />
+		<title>Amicalife</title>
+		<link rel="stylesheet" href="/assets/css/parallax.css" rel="stylesheet" type="text/css" />
+		<link rel="stylesheet" href="/assets/css/amicalife.css" rel="stylesheet" type="text/css" />
+		<link rel="stylesheet" href="/assets/zoombox/zoombox.css" rel="stylesheet" type="text/css" media="screen" />
+	</head>
+
+	<body>
+		<div id="main">
+			<div id="content">
+				<div class="void-medium"></div>
+
+				<div class="story" id="intro">
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+					</p>
+
+					<p class="ombre">
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+					</p>
+				</div>
+			</div>
+		</div>
+
+		    <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js" type="text/javascript"></script>-->
+		    <!--<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>-->
+		    <script src="/assets/js/jquery-1.6.1.min.js" type="text/javascript"></script>
+		    
+		    <script src="/assets/zoombox/zoombox.js" type="text/javascript"></script>
+
+		     <script type="text/javascript">
+		        jQuery(function($){
+		            $('a.zoombox').zoombox();
+		        });
+	        </script>
+
+		    <script type="text/javascript">
+		        (function($){  
+			        $.fn.juizScrollTo = function(speed){  
+			            if(!speed) var speed = 'slow';  
+			                 
+			            return this.each(function(){  
+			                $(this).click(function(){  
+			                    var goscroll = false;  
+			                    var the_hash = $(this).attr("href");  
+			                    var regex = new RegExp("(.*)\#(.*)","gi");  
+			                    var the_element = '';  
+			       
+			                    if(the_hash.match("\#(.+)")) {  
+			       
+			                        the_hash = the_hash.replace(regex,"$2");  
+			       
+			                        if($("#"+the_hash).length>0) {  
+			                            the_element = "#" + the_hash;  
+			                            goscroll = true;  
+			                        }  
+			                        else if($("a[name=" + the_hash + "]").length>0) {  
+			                            the_element = "a[name=" + the_hash + "]";  
+			                            goscroll = true;  
+			                        }  
+			                             
+			                        if(goscroll) {  
+			                            var container = 'html';  
+			                            if ($.browser.webkit) container = 'body';  
+			       
+			                            $(container).animate({  
+			                                scrollTop:$(the_element).offset().top  
+			                            }, speed, 
+			                            	function(){$(the_element).attr('tabindex','0').focus().removeAttr('tabindex');});  
+			                            return false;  
+			                        }  
+			                    }  
+			                });  
+			            });  
+			        };  
+			    })(jQuery)  
+			         
+			    $('a[href^="#"]').juizScrollTo('fast').css('color','red');  
+		    </script>
+
+		<!--
+		<script src="/assets/js/jquery.mousewheel.min.js" type="text/javascript"></script>
+		<script src="/assets/js/jquery.simplr.smoothscroll.js" type="text/javascript"></script>
+		-->
+		<script src="/assets/js/parallax.js" type="text/javascript"></script>
+		<script src="/assets/js/amicalife.js" type="text/javascript"></script>
+	</body>
+</html>

@@ -1,0 +1,161 @@
+* {
+	margin: 0;
+	padding: 0;
+	outline: 0;
+	color: inherit;
+	text-decoration: none;
+	font-style: normal;
+	font-weight: normal;
+}
+
+body {
+	background-color: #6d1d7c;
+	color: #f9c68b;
+	padding: 30px;
+}
+
+h3, h4 {
+	font-weight: bold;
+}
+
+em {
+	font-style: italic;
+}
+
+strong {
+	font-weight: bold;
+}
+
+p {
+	margin-top: 10px;
+	text-align: justify;
+}
+
+section .assos {
+	margin: 20px 0;
+}
+
+section ul li:before {
+    content: "\00BB \0020";
+}
+
+section ul {
+	list-style: none;
+	margin-bottom: 20px;
+
+    margin-left: 0;
+    padding-left: 1em;
+    text-indent: -1em;
+}
+
+section ul li {
+    font-style: italic;
+}
+
+.photo {
+	float: left;
+	margin-bottom: 20px;
+
+	background-position: left;
+	box-shadow: 0px 0px 8px #000;
+}
+
+#alix .photo {
+	background-image: url(../images/team/alix.png);
+	width: 223px;
+	height: 541px;
+}
+
+#alix section {
+	margin-left: 253px;
+}
+
+#lucas .photo {
+	background-image: url(../images/team/lucas.png);
+	width: 308px;
+	height: 316px;
+}
+
+#lucas section {
+	margin-left: 338px;
+}
+
+#nico .photo {
+	background-image: url(../images/team/nico.png);
+	width: 271px;
+	height: 294px;
+}
+
+#nico section {
+	margin-left: 301px;
+}
+
+#alexis .photo {
+	background-image: url(../images/team/alexis.png);
+	width: 311px;
+	height: 279px;
+}
+
+#alexis section {
+	margin-left: 341px;
+}
+
+#rachel .photo {
+	background-image: url(../images/team/rachel.png);
+	width: 139px;
+	height: 279px;
+}
+
+#rachel section {
+	margin-left: 169px;
+}
+
+#eugenie .photo {
+	background-image: url(../images/team/eugenie.png);
+	width: 272px;
+	height: 319px;
+}
+
+#eugenie section {
+	margin-left: 302px;
+}
+
+#jordy .photo {
+	background-image: url(../images/team/jordy.png);
+	width: 134px;
+	height: 200px;
+}
+
+#jordy section {
+	margin-left: 164px;
+}
+
+#mymy .photo {
+	background-image: url(../images/team/mymy.png);
+	width: 139px;
+	height: 256px;
+}
+
+#mymy section {
+	margin-left: 169px;
+}
+
+#olivier .photo {
+	background-image: url(../images/team/olivier.png);
+	width: 223px;
+	height: 369px;
+}
+
+#olivier section {
+	margin-left: 253px;
+}
+
+#josso .photo {
+	background-image: url(../images/team/josso.png);
+	width: 159px;
+	height: 308px;
+}
+
+#josso section {
+	margin-left: 189px;
+}
