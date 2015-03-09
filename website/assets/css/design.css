@@ -235,6 +235,27 @@ em {
 	color:#ffd1a5;
 }
 
+.timeline-border {
+	border: solid #7d0032 1px;
+	background: rgba(0,0,0,0.2);
+	box-shadow:0px 0px 4px #000;
+
+	width: 940px;
+	height: 656px;
+	margin: auto;
+	margin-top: 20px;
+}
+
+.timeline {
+	display: block;
+	margin: 10px auto;
+	width: 920px;
+	height: 634px;
+	position: relative;
+
+	border: solid #7d0032 1px;
+}
+
 #team-border {
 	border: solid #7d0032 1px;
 	background: rgba(0,0,0,0.2);
