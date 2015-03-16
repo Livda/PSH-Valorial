@@ -261,16 +261,25 @@ em {
 	text-align: center;
 }
 
+#actors a {
+	cursor: pointer;
+}
+
+#actors a:hover {
+	text-decoration: underline;
+}
+
+#actors #actors_for, #actors #actors_against {
+	display: inline-block;
+	width: 40%;
+}
+
 #actors div {
 	margin: 40px 0;
 }
 
 #actors .desc {
 	display: none;
-}
-
-#actors .desc.show {
-	display: block;
 }
 
 #actors ul li {
