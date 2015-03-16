@@ -127,3 +127,11 @@ josso.hover(
 		$("#team-role").text("");
 	}
 );
+
+var lactor1 = $("#li_actor_1");
+var actor1 = $("#i_actor_1");
+lactor1.hover {
+	function() {
+		actor1.addClass("show");
+	}
+}

@@ -256,235 +256,25 @@ em {
 	border: solid #7d0032 1px;
 }
 
-#team-border {
-	border: solid #7d0032 1px;
-	background: rgba(0,0,0,0.2);
-	box-shadow:0px 0px 4px #000;
-
-	width: 940px;
-	height: 570px;
-	margin: auto;
-	margin-top: 20px;
-}
-
-/* Team Amicalife */
-#team {
-	display: block;
-	margin: 10px auto;
-	width: 920px;
-	height: 550px;
-	position: relative;
-
-	border: solid #7d0032 1px;
-	background-image: url(../images/team_bg.jpg);
-	background-position: center;
-	background-repeat: no-repeat;
-}
-
-#team #team-infos {
-	position: absolute;
-	top: 20px;
-	left: 0;
-	width: 100%;
+/* Acteurs */
+#actors {
 	text-align: center;
 }
 
-#team #team-infos h1, h2 {
-	color: #fdb14f;
-	font-weight: bold;
-	text-shadow: none;
-	font-family: Gabriola, Georgia, "DejaVu Serif", Norasi, serif;
-	line-height: 40px;
+#actors div {
+	margin: 40px 0;
 }
 
-#team div {
-	background-position: left;
-	pointer-events: none;
+#actors .desc {
+	display: none;
 }
 
-#team div:hover {
-	background-position: right;
-}
-
-#team div .head {
-	position: absolute;
+#actors .desc.show {
 	display: block;
-	pointer-events: all;
-
-	width: 80px;
-	height: 80px;
-
-	cursor: pointer;
 }
 
-#alix {
-	background-image: url(../images/team/alix.png);
-	width: 223px;
-	height: 541px;
-
-	position: absolute;
-	bottom: 0;
-	left: 11px;
-
-	z-index: 10;
-}
-
-#alix .head {
-	left: 60px;
-	bottom: 65px;
-}
-
-#lucas {
-	background-image: url(../images/team/lucas.png);
-	width: 308px;
-	height: 316px;
-
-	position: absolute;
-	bottom: 0;
-	left: 123px;
-
-	z-index: 9;
-}
-
-#lucas .head {
-	left: 110px;
-	top: 10px;
-}
-
-#nico {
-	background-image: url(../images/team/nico.png);
-	width: 271px;
-	height: 294px;
-
-	position: absolute;
-	bottom: 0;
-	left: 349px;
-
-	z-index: 8;
-}
-
-#nico .head {
-	left: 30px;
-	top: 5px;
-}
-
-#alexis {
-	background-image: url(../images/team/alexis.png);
-	width: 311px;
-	height: 279px;
-
-	position: absolute;
-	bottom: 162px;
-	left: 335px;
-
-	z-index: 5;
-}
-
-#alexis .head {
-	left: 100px;
-	top: 0;
-}
-
-#rachel {
-	background-image: url(../images/team/rachel.png);
-	width: 139px;
-	height: 279px;
-
-	position: absolute;
-	bottom: 65px;
-	left: 487px;
-
-	z-index: 7;
-}
-
-#rachel .head {
-	left: 5px;
-	top: 50px;
-}
-
-#eugenie {
-	background-image: url(../images/team/eugenie.png);
-	width: 272px;
-	height: 319px;
-
-	position: absolute;
-	bottom: 0;
-	left: 545px;
-
-	z-index: 9;
-}
-
-#eugenie .head {
-	left: 65px;
-	top: 20px;
-}
-
-#jordy {
-	background-image: url(../images/team/jordy.png);
-	width: 134px;
-	height: 200px;
-
-	position: absolute;
-	bottom: 229px;
-	left: 573px;
-
-	z-index: 5;
-}
-
-#jordy .head {
-	left: 40px;
-	top: 0;
-}
-
-#mymy {
-	background-image: url(../images/team/mymy.png);
-	width: 139px;
-	height: 256px;
-
-	position: absolute;
-	bottom: 143px;
-	left: 242px;
-
-	z-index: 7;
-}
-
-#mymy .head {
-	left: 35px;
-	top: 0;
-}
-
-#olivier {
-	background-image: url(../images/team/olivier.png);
-	width: 223px;
-	height: 369px;
-
-	position: absolute;
-	bottom: 0;
-	left: 697px;
-
-	z-index: 10;
-}
-
-#olivier .head {
-	left: 95px;
-	top: 75px;
-}
-
-#josso {
-	background-image: url(../images/team/josso.png);
-	width: 159px;
-	height: 308px;
-
-	position: absolute;
-	bottom: 61px;
-	left: 672px;
-
-	z-index: 7;
-}
-
-#josso .head {
-	left: 70px;
-	top: 10px;
+#actors ul li {
+	display: inline;
 }
 
 /* Galleries */
