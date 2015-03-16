@@ -10,3 +10,7 @@ $ latex Mono
 $ xdvi Mono
 ```
 Et c'est la même manipulation pour n'importe quel changement sur les sources et sur n'importe quel fichier latex.
+
+Copyrights :
+
+Designed by Freepik.com
