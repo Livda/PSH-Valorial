@@ -1,6 +1,8 @@
 @font-face {
 	font-family: 'ReturnToSender';
+	font-family: 'Dragon_is_coming';
 	src: url('../fonts/Return_To_Sender.ttf');
+	src: url('../fonts/Dragon_is_coming.otf');
 }
 
 * {
@@ -86,7 +88,7 @@ header #amicalife {
 	padding-bottom: 50px;
 	z-index: 15;
 	
-	background-color: #e189b7;
+	background-color: transparent;
 	background-image: url(../images/motif_bg.jpg);
 	background-repeat: repeat-x repeat-y;
 
@@ -96,7 +98,7 @@ header #amicalife {
 	-o-transform: translate3d(0px, 0px, 0px);
 	transform: translate3d(0px, 0px, 0px);
 
-	color: #7351a1;
+	color: #000000;
 }
 
 #content {
@@ -180,11 +182,11 @@ h4
 {
 	margin-top: 40px;
 	margin-bottom: 40px;
-	font-size: 52px;
-	line-height: 52px;
-	color: #2d3d7f;
+	font-size: 150px;
+	line-height: 100px;
+	color: #7c3d0b;
 
-	font-family: ReturnToSender, Impact, Charcoal, sans-serif;
+	font-family: Dragon_is_coming, Impact, Charcoal, sans-serif;
 }
 
 h5 {
