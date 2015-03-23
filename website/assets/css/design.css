@@ -1,8 +1,10 @@
 @font-face {
 	font-family: 'ReturnToSender';
 	font-family: 'Dragon_is_coming';
+	font-family: 'Park_Tech_CG';
 	src: url('../fonts/Return_To_Sender.ttf');
 	src: url('../fonts/Dragon_is_coming.otf');
+	src: url('../fonts/Park_Tech_CG.ttf');
 }
 
 * {
@@ -57,7 +59,7 @@ header #amicalife {
 	width: 220px;
 	background-image: url(../images/menu.png);
 
-	color: #e189b7;
+	color: #7c3d0b;
 	text-align: center;
 	line-height: 40px;
 	font-weight: bold;
@@ -71,7 +73,7 @@ header #amicalife {
 
 #nav a:hover {
 	margin-left: 40px;
-	color: #5d57a6;
+	color: #9bd808;
 }
 
 #gradient {
@@ -110,7 +112,7 @@ header #amicalife {
 	position: relative;
 	padding: 30px 0px;
 
-	text-shadow: -1px 1px 2px #bb6bbc;
+	/*text-shadow: -1px 1px 2px #bb6bbc;*/
 }
 
 .story p {
@@ -185,6 +187,7 @@ h4
 	font-size: 150px;
 	line-height: 100px;
 	color: #7c3d0b;
+	text-shadow: -2px 2px 3px #7c5b42;
 
 	font-family: Dragon_is_coming, Impact, Charcoal, sans-serif;
 }
@@ -199,6 +202,9 @@ h5 {
 
 p {
 	margin-bottom: 30px;
+	color: #132771;
+	
+	/*font-family: Park_Tech_CG,sans-serif;*/
 }
 
 strong {
