@@ -4,8 +4,8 @@
 }
 
 @font-face {
-	font-family: 'DancingScript-Regular';
-	src: url('../fonts/DancingScript-Regular.otf');
+	font-family: 'DAYROM';
+	src: url('../fonts/DAYROM.ttf');
 }
 
 * {
@@ -204,8 +204,8 @@ h2 {
 p {
 	margin-bottom: 30px;
 	color: #132771;
-	font-size: 24px;
-	font-family: DancingScript-Regular, Impact, Charcoal, sans-serif;
+	font-size: 20px;
+	font-family: DAYROM, Impact, Charcoal, sans-serif;
 }
 
 strong {
@@ -274,8 +274,8 @@ em {
 
 #actors a {
 	cursor: pointer;
-	font-size: 25px;
-	font-family: DancingScript-Regular, Impact;
+	font-size: 20px;
+	font-family: DAYROM, Impact;
 }
 
 #actors a:hover {
