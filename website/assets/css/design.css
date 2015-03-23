@@ -1,9 +1,10 @@
 @font-face {
-	font-family: 'ReturnToSender';
 	font-family: 'Dragon_is_coming';
-	font-family: 'Park_Tech_CG';
-	src: url('../fonts/Return_To_Sender.ttf');
 	src: url('../fonts/Dragon_is_coming.otf');
+}
+
+@font-face {
+	font-family: 'Park_Tech_CG';
 	src: url('../fonts/Park_Tech_CG.ttf');
 }
 
