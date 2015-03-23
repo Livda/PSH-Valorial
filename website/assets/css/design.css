@@ -204,7 +204,7 @@ h2 {
 p {
 	margin-bottom: 30px;
 	color: #132771;
-	font-size: 23px;
+	font-size: 24px;
 	font-family: DancingScript-Regular, Impact, Charcoal, sans-serif;
 }
 
@@ -274,6 +274,8 @@ em {
 
 #actors a {
 	cursor: pointer;
+	font-size: 25px;
+	font-family: DancingScript-Regular, Impact;
 }
 
 #actors a:hover {
