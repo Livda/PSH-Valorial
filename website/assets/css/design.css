@@ -243,6 +243,8 @@ em {
 	color:#ffd1a5;
 }
 
+/* Timeline */
+
 .timeline-border {
 	border: solid #7d0032 1px;
 	background: rgba(0,0,0,0.2);
@@ -292,6 +294,32 @@ em {
 
 #actors ul li {
 	display: inline;
+}
+
+/* Wordle */
+
+.wordle-border {
+	border: solid #7d0032 1px;
+	background: rgba(0,0,0,0.2);
+	box-shadow:0px 0px 4px #000;
+
+	width: 832px;
+	height: 548px;
+	margin: auto;
+	margin-top: 20px;
+}
+
+.wordle {
+	display: block;
+	margin: 10px auto;
+	width: 812px; /* 920 x 634 */
+	height: 526px;
+	position: relative;
+
+	background-image: url('../images/wordle.png');
+	background-repeat: no-repeat;
+
+	border: solid #7d0032 1px;
 }
 
 /* Galleries */
