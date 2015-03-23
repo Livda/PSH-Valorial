@@ -30,7 +30,7 @@ header {
 	text-align: center;
 }
 
-header #amicalife {
+header #logo-miam {
 	display: inline-block;
 	padding: 0;
 	width: 212px;
@@ -38,7 +38,7 @@ header #amicalife {
 	/*margin-right: 100px;*/
 
 	background-color: transparent;
-	background-image: url(../images/amicalife.png);
+	background-image: url(../images/logo.png);
 	background-repeat: no-repeat;
 	background-position: right;
 }
