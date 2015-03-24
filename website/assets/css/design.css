@@ -92,7 +92,7 @@ header #logo-miam {
 	z-index: 15;
 	
 	background-color: transparent;
-	background-image: url(../images/motif_bg.jpg);
+	background-image: url(../images/background/grey_wash_wall.png);
 	background-repeat: repeat-x repeat-y;
 
 	-webkit-transform: translate3d(0px, 0px, 0px);
