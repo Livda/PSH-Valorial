@@ -247,7 +247,7 @@ em {
 /* Timeline */
 
 .timeline-border {
-	border: solid #7d0032 1px;
+	border: solid #5a5a5a 1px;
 	background: rgba(0,0,0,0.2);
 	box-shadow:0px 0px 4px #000;
 
@@ -264,7 +264,7 @@ em {
 	height: 634px;
 	position: relative;
 
-	border: solid #7d0032 1px;
+	border: solid #5a5a5a 1px;
 }
 
 /* Acteurs */
@@ -303,7 +303,7 @@ em {
 /* Wordle */
 
 .wordle-border {
-	border: solid #7d0032 1px;
+	border: solid #5a5a5a 1px;
 	background: rgba(0,0,0,0.2);
 	box-shadow:0px 0px 4px #000;
 
@@ -323,7 +323,7 @@ em {
 	background-image: url('../images/wordle.png');
 	background-repeat: no-repeat;
 
-	border: solid #7d0032 1px;
+	border: solid #5a5a5a 1px;
 }
 
 /* Galleries */
