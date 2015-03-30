@@ -4,8 +4,8 @@
 }
 
 @font-face {
-	font-family: 'DancingScript-Regular';
-	src: url('../fonts/DancingScript-Regular.otf');
+	font-family: 'DAYROM';
+	src: url('../fonts/DAYROM.ttf');
 }
 
 * {
@@ -30,7 +30,7 @@ header {
 	text-align: center;
 }
 
-header #amicalife {
+header #logo-miam {
 	display: inline-block;
 	padding: 0;
 	width: 212px;
@@ -38,7 +38,7 @@ header #amicalife {
 	/*margin-right: 100px;*/
 
 	background-color: transparent;
-	background-image: url(../images/amicalife.png);
+	background-image: url(../images/logo.png);
 	background-repeat: no-repeat;
 	background-position: right;
 }
@@ -92,7 +92,7 @@ header #amicalife {
 	z-index: 15;
 	
 	background-color: transparent;
-	background-image: url(../images/motif_bg.jpg);
+	background-image: url(../images/background/grey_wash_wall.png);
 	background-repeat: repeat-x repeat-y;
 
 	-webkit-transform: translate3d(0px, 0px, 0px);
@@ -204,8 +204,8 @@ h2 {
 p {
 	margin-bottom: 30px;
 	color: #132771;
-	font-size: 24px;
-	font-family: DancingScript-Regular, Impact, Charcoal, sans-serif;
+	font-size: 20px;
+	font-family: DAYROM, Impact, Charcoal, sans-serif;
 }
 
 strong {
@@ -274,8 +274,8 @@ em {
 
 #actors a {
 	cursor: pointer;
-	font-size: 25px;
-	font-family: DancingScript-Regular, Impact;
+	font-size: 20px;
+	font-family: DAYROM, Impact;
 }
 
 #actors a:hover {
