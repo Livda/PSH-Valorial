@@ -269,6 +269,7 @@ em {
 
 #actors a {
 	cursor: pointer;
+	font-weight: bold;
 	font-size: 20px;
 	font-family: Times New Roman, Impact, Charcoal, sans-serif;
 }
