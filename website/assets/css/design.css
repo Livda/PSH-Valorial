@@ -3,11 +3,6 @@
 	src: url('../fonts/Dragon_is_coming.otf');
 }
 
-@font-face {
-	font-family: 'DAYROM';
-	src: url('../fonts/DAYROM.ttf');
-}
-
 * {
 	margin: 0;
 	padding: 0;
@@ -111,7 +106,7 @@ header #logo-miam {
 
 .story {
 	position: relative;
-	padding: 30px 0px;
+	padding: 0px 0px;
 
 	/*text-shadow: -1px 1px 2px #bb6bbc;*/
 }
@@ -183,7 +178,7 @@ h1, h2 {
 
 h1
 {
-	margin-top: 40px;
+	/*margin-top: 40px;*/
 	margin-bottom: 40px;
 	font-size: 150px;
 	line-height: 100px;
@@ -203,9 +198,9 @@ h2 {
 
 p {
 	margin-bottom: 30px;
-	color: #132771;
+	color: #000000;
 	font-size: 20px;
-	font-family: DAYROM, Impact, Charcoal, sans-serif;
+	font-family: Times New Roman, Impact, Charcoal, sans-serif;
 }
 
 strong {
@@ -275,7 +270,7 @@ em {
 #actors a {
 	cursor: pointer;
 	font-size: 20px;
-	font-family: DAYROM, Impact;
+	font-family: Times New Roman, Impact, Charcoal, sans-serif;
 }
 
 #actors a:hover {
